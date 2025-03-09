@@ -170,6 +170,7 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+            'Blaspsoft\\Blasp\\' => 16,
         ),
         'A' => 
         array (
@@ -508,6 +509,10 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'Blaspsoft\\Blasp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/blaspsoft/blasp/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -520,6 +525,17 @@ class ComposerStaticInit88970a0117c062eed55fa8728fc43833
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Blaspsoft\\Blasp\\Abstracts\\StringNormalizer' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Abstracts/StringNormalizer.php',
+        'Blaspsoft\\Blasp\\BlaspExpressionService' => __DIR__ . '/..' . '/blaspsoft/blasp/src/BlaspExpressionService.php',
+        'Blaspsoft\\Blasp\\BlaspService' => __DIR__ . '/..' . '/blaspsoft/blasp/src/BlaspService.php',
+        'Blaspsoft\\Blasp\\Console\\Commands\\BlaspClearCommand' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Console/Commands/BlaspClearCommand.php',
+        'Blaspsoft\\Blasp\\Facades\\Blasp' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Facades/Blasp.php',
+        'Blaspsoft\\Blasp\\Normalizers\\EnglishStringNormalizer' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Normalizers/EnglishStringNormalizer.php',
+        'Blaspsoft\\Blasp\\Normalizers\\FrenchStringNormalizer' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Normalizers/FrenchStringNormalizer.php',
+        'Blaspsoft\\Blasp\\Normalizers\\Normalize' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Normalizers/Normalize.php',
+        'Blaspsoft\\Blasp\\ProfanityDetector' => __DIR__ . '/..' . '/blaspsoft/blasp/src/ProfanityDetector.php',
+        'Blaspsoft\\Blasp\\ServiceProvider' => __DIR__ . '/..' . '/blaspsoft/blasp/src/ServiceProvider.php',
+        'Blaspsoft\\Blasp\\Traits\\BlaspCache' => __DIR__ . '/..' . '/blaspsoft/blasp/src/Traits/BlaspCache.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
         'Brick\\Math\\BigNumber' => __DIR__ . '/..' . '/brick/math/src/BigNumber.php',
